@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Advance Computer Vision</title>
+  </head>
+
+  <body>
+<!--  header-->
+   <div class="header">
+    <a href="#default" class="logo">Advance Computer Vision</a>
+     <div class="header-right">
+       <a class="active" href="{{ url_for('index1') }}">Home</a>
+       <a href="{{ url_for('contact') }}">Contact</a>
+       <a href="{{ url_for('about') }}">About</a>
+     </div>
+   </div>
+
+<!--content-->
+<div class="main">
+   <div class="content">
+    <h2>What is Machine Learning</h2>
+      <div class="image">
+              <img src="static/img/img1.webp" alt="">
+      </div>
+    <p>&nbsp &nbsp &nbsp &nbsp We have seen Machine Learning as a buzzword for the past few years, the reason for this might be the high amount of data production by applications, the increase of computation power in the past few years and the development of better algorithms.</p>
+    <p>&nbsp &nbsp &nbsp &nbsp Machine Learning is used anywhere from automating tasks to offering intelligent insights, industries in every sector try to benefit from it. You may already be using a device that utilizes it. For example, a wearable fitness tracker like Fitbit, or an intelligent home assistant like Google Home. But there are much more examples of ML in use.</p>
+       <li><b>Prediction:</b>Machine learning can also be used in the prediction systems. Considering the loan example, to compute the probability of a fault, the system will need to classify the available data in groups.</li>
+       <li><b>Image recognition:</b>Machine learning can be used for face detection in an image as well. There is a separate category for each person in a database of several people.</li>
+       <li><b>Speech Recognition:</b>It is the translation of spoken words into the text. It is used in voice searches and more. Voice user interfaces include voice dialing, call routing, and appliance control. It can also be used a simple data entry and the preparation of structured documents.</li>
+       <li><b>Medical diagnoses:</b>ML is trained to recognize cancerous tissues.</li>
+       <li><b>Financial industry and trading:</b>companies use ML in fraud investigations and credit checks.</li>
+   </div>
+
+    <div class="row">
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+<!--                <img src="..." class="card-img-top" alt="...">-->
+                <div class="card-body">
+                    <h5 class="card-title">Hand Tracking</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a class="btn btn-primary" href="{{ url_for('hand') }}">Handtracking</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+<!--                <img src="..." class="card-img-top" alt="...">-->
+                <div class="card-body">
+                    <h5 class="card-title">Volume up and down</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a class="btn btn-primary" href="{{ url_for('volume') }}">Volume</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+             <div class="card" style="width: 18rem;">
+<!--                <img src="..." class="card-img-top" alt="...">-->
+                <div class="card-body">
+                    <h5 class="card-title">Brightness</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a class="btn btn-primary" href="{{ url_for('brightness') }}">Brightness</a>
+                </div>
+            </div>
+       </div>
+    </div>
+
+</div>
+
+<!--   <div class="content1">-->
+<!--    <h2>What is Hand Tracking</h2>-->
+<!--      <div class="image">-->
+<!--              <img src="static/img/img1.webp" alt="">-->
+<!--      </div>-->
+<!--    <p>&nbsp &nbsp &nbsp &nbsp Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid animi, atque beatae commodi dolorem eligendi eos error et exercitationem, ipsam ipsum iste libero magni molestiae non odit porro qui sapiente sint suscipit tempora ut vel? Aspernatur beatae consequatur, esse id iste modi quam quod repudiandae. Assumenda culpa cupiditate ea ex, fugit incidunt inventore iure maxime minus, molestias nam natus neque nostrum, odio officiis possimus quidem sint vel veritatis voluptatum? Ad alias architecto, blanditiis commodi doloremque doloribus et, fuga inventore ipsam, iste labore natus porro ullam voluptas voluptatibus? Harum iusto laudantium molestias nisi quae quas quidem repellendus. Earum eos, error.</p>-->
+<!--    <p>&nbsp &nbsp &nbsp &nbsp Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid animi, atque beatae commodi dolorem eligendi eos error et exercitationem, ipsam ipsum iste libero magni molestiae non odit porro qui sapiente sint suscipit tempora ut vel? Aspernatur beatae consequatur, esse id iste modi quam quod repudiandae. Assumenda culpa cupiditate ea ex, fugit incidunt inventore iure maxime minus, molestias nam natus neque nostrum, odio officiis possimus quidem sint vel veritatis voluptatum? Ad alias architecto, blanditiis commodi doloremque doloribus et, fuga inventore ipsam, iste labore natus porro ullam voluptas voluptatibus? Harum iusto laudantium molestias nisi quae quas quidem repellendus. Earum eos, error.</p>-->
+<!--   </div>-->
+
+
+
+
+  </body>
+</html>
